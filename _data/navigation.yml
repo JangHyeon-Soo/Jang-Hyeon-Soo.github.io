@@ -11,8 +11,8 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Home"
-      section: home
+    # - title: "Home"
+    #   section: home
     - title: "History"
       section: History
     - title: "Players"
