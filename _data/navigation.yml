@@ -21,6 +21,8 @@ en: &DEFAULT_EN
       section: Achievements
     - title: "Gallery"
       section: Gallery
+    - title: Stadium
+      section: Stadium
     - title: "Detail"
       section: contact
     - title: "Theme Source"

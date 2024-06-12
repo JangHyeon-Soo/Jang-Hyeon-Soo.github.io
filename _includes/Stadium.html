@@ -1,0 +1,29 @@
+<head>
+    <link rel="stylesheet" href="웹화면구현_2171040_장현수/css/Gallery.css">
+    <script src="웹화면구현_2171040_장현수/js/Stadium.js">
+    </script>
+
+    <style>
+        #stadiumImgCont {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            gap: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<section class="page-section" style="background-color: rgba(211, 211, 211, 0.3);" id="{{ site.data.sitetext[site.locale].Stadium.section | default: "Stadium" }}">
+
+    <div class="container" style="text-align: center;">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading text-uppercase"> {{ site.data.sitetext[site.locale].Stadium.title | default: "Old Trafford"}} </h2>
+                <h3 class="section-subheading text-muted"> {{ site.data.sitetext[site.locale].Stadium.subtitle | default: ""}}</h3>
+            </div>
+        </div>
+
+        <div id="stadiumImgCont"></div>
+    </div>
+
+</section>

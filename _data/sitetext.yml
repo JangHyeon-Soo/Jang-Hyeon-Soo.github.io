@@ -139,6 +139,11 @@ en: &DEFAULT_EN
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
 
+  Stadium:
+    title: "Old Trafford"
+    subtitle: "The Heart Of The Red Devils"
+    section: Stadium
+
   contact:
     title: "Contact Us"
     text: "Lorem ipsum or call 123456789"
