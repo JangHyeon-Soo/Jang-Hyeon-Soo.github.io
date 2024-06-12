@@ -1,0 +1,19 @@
+---
+layout: default
+---
+{% include nav.html %}
+
+{% if page.background == "grey" or page.background == "gray" %}
+<!-- <script src="웹화면구현_2171040_장현수/js/PlayerList.js"></script>
+<script src="웹화면구현_2171040_장현수/js/Players.js"></script>
+
+<link rel="stylesheet" href="웹화면구현_2171040_장현수/css/Players.css"> -->
+<script>
+document.getElementById("page-top").className="bg-light";
+
+</script>
+{% endif %}
+
+<div class="container" id="pagecontainer">
+{{ content }}
+</div>

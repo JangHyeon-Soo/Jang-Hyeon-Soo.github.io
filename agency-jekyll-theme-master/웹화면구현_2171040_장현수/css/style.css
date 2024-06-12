@@ -1,0 +1,217 @@
+.jua-regular {
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 70%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+div img {
+    width: 150px;
+    height: 100px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d71920;
+    padding: 20px;
+    color: white;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#main-Cover {
+    background: url() no-repeat center center/cover;
+    background-position: center;
+    background-size: cover;
+    color: white;
+
+    padding: 100px 20px;
+    /* /margin-top: 100px; */
+    /*border: 1px solid black;*/
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+section {
+    padding: 60px 20px;
+
+}
+
+#main-Cover div {
+    width: 600px;
+    height: 100px;
+    position: absolute;
+
+    font-size: 100px;
+    
+    text-align: center;
+}
+
+#history,
+#players,
+#achievements,
+#gallery {
+    background-color: #f4f4f4;
+    margin: 20px 0;
+}
+
+#players .player-cards {
+
+    display: flex;
+    gap: 20px;
+}
+
+.player-card {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#playerInfo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-family: "Jua";
+    font-size: 20px;
+    width: 300px;
+    height: 250px;
+    font-weight: bold;
+}
+
+.neonName {
+    /* position: absolute; */
+    text-align: center;
+    line-height: 120px;
+    width: 280px;
+    height: 120px;
+
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    animation: neonGlow 1.5s linear infinite;
+}
+
+@keyframes neonGlow {
+    0% {
+        text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 70px #ff0000, 0 0 80px #ff0000, 0 0 100px #ff0000, 0 0 150px #ff0000;
+    }
+
+    50% {
+        text-shadow: 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 100px #ff0000, 0 0 110px #ff0000, 0 0 130px #ff0000, 0 0 180px #ff0000;
+    }
+
+    100% {
+        text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 0 0 70px #ff0000, 0 0 80px #ff0000, 0 0 100px #ff0000, 0 0 150px #ff0000;
+    }
+}
+
+
+.player-card img {
+    width: 100%;
+    height: auto;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+#PlayerListPanel {
+    display: flex;
+    border: 1px solid black;
+    justify-self: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: #7970706e;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#PlayerListPanel>.player-card:hover {
+    transform: scale(1.5);
+}
+
+#PlayerDetailBox {
+    width: 70%;
+    height: 100px;
+    position: absolute;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+#PlayerDetailInfoContainer {
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 10;
+
+
+}
+
+#PlayerDetailInfoContainer>img {
+    position: absolute;
+    /*border: 1px solid black;*/
+
+    left: 5px;
+    top: 5px;
+}
