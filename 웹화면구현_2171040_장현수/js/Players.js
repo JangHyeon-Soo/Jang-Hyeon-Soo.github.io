@@ -46,7 +46,7 @@ window.addEventListener('load', function () {
                 playerDetailBox.id = "PlayerDetailInfoContainer";
                 
                 const bgImage = document.createElement('img');
-                bgImage.src = "https://i.namu.wiki/i/fHbXJe_K5_xZz9_ck8Tfvcbr5GzMQLV4JC1OHpkIIRWkK8UQpWR2t0B9f9MrPCyn3HQUNkNhnioJJqUJJVqyQhz6ZO8KllrCEfHy1nGx0yCabbVhSsCHdULC2Vnd7jQETWvxWm3abSBozr1BdTHRlA.svg";
+                bgImage.src = "웹화면구현_2171040_장현수/Image/ManchesterUnitedEmblem.webp";
                 bgImage.style.position = "absolute";
                 bgImage.style.left = "50%";
                 bgImage.style.top = "50%";
