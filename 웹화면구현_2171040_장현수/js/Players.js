@@ -46,7 +46,7 @@ window.addEventListener('load', function () {
                 playerDetailBox.id = "PlayerDetailInfoContainer";
                 
                 const bgImage = document.createElement('img');
-                bgImage.src = "웹화면구현_2171040_장현수/Image/ManchesterUnitedEmblem.webp";
+                bgImage.src = "웹화면구현_2171040_장현수/Image/ManchesterUnitedEmblem.svg";
                 bgImage.style.position = "absolute";
                 bgImage.style.left = "50%";
                 bgImage.style.top = "50%";
