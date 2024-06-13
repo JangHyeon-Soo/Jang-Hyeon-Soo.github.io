@@ -16,6 +16,9 @@ window.addEventListener('load', function () {
         const playerImg = this.document.createElement('img');
         playerImg.src = plData[i].playerImage;
         playerImg.id = "playerImage";
+        playerImg.style.maxWidth = "100%";
+        playerImg.style.height = "auto";
+        playerImg.style.objectFit = "cover";
         playerCard.appendChild(playerImg);
         const playerName = this.document.createElement('h3');
         playerName.innerHTML = plData[i].playerName;
