@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // 랜덤 크기 설정
         const width = getRandomSize(3, 5);
-        const height = getRandomSize(1, 2); 
+        const height = getRandomSize(2, 2); 
 
         photoContainer.style.gridColumnEnd = `span ${width}`;
         photoContainer.style.gridRowEnd = `span ${height}`;
