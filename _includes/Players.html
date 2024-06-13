@@ -4,8 +4,8 @@
 <head>
   <link rel="stylesheet" href="웹화면구현_2171040_장현수/css/Players.css">
   <link rel="stylesheet" href="웹화면구현_2171040_장현수/css/style.css">
-  
-  
+
+
   <script src="웹화면구현_2171040_장현수/js/PlayerList.js"></script>
   <script src="웹화면구현_2171040_장현수/js/Players.js"></script>
 
@@ -13,36 +13,38 @@
 </head>
 
 
-<section class="page-section" style="position: relative; background-color: rgba(211, 211, 211, 0.3);" id="{{ site.data.sitetext[site.locale].about.section | default: " about" }}">
+<section class="page-section" style="position: relative; background-color: rgba(211, 211, 211, 0.3);"
+  id="{{ site.data.sitetext[site.locale].about.section | default: " about" }}">
 
 
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-
-        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].about.title | default: "About
-          Us"}}</h2>
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].about.title | default: "AboutUs"}}
+        </h2>
         <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].about.text | default: "" }}</h3>
-        
-          
-        </div>
-
-
       </div>
-      <div id="playerContainer" style="border: 1px solid black; display: flex; flex-wrap: wrap; text-align: center; width: 80%; margin: 0 auto; justify-content: center; padding: 10px;"></div>
+    </div>
+    
+
+  </div>
+  <div id="playerContainer"
+      style="width: auto; border: 1px solid black; display: flex; flex-wrap: wrap; text-align: center; width: 80%; margin: 0 auto; justify-content: center; padding: 10px;">
     </div>
 
 
-    <div class="row">
-      <div class="col-lg-8 mx-auto text-center">
-        <div class="large text-muted">
-          {{ site.data.sitetext[site.locale].about.body | markdownify }}
-          
-        </div>
+
+  <div class="row">
+    <div class="col-lg-8 mx-auto text-center">
+      <div class="large text-muted">
+        {{ site.data.sitetext[site.locale].about.body | markdownify }}
+
       </div>
     </div>
   </div>
+  </div>
 </section>
+
 {% else %}
 <section class="page-section" id="{{ site.data.sitetext.about.section | default: " about" }}">
   <div class="container" style="text-align: center;">
@@ -53,14 +55,15 @@
         <h2 class="section-heading text-uppercase">{{ site.data.sitetext.about.title | default: "About Us" }}</h2>
         <h3 class="section-subheading text-muted">{{ site.data.sitetext.about.text | default: "" }}</h3>
       </div>
-      <div id="playerContainer" 
-      style="border: 1px solid black; display: flex; flex-wrap: wrap; text-align: center; width: 80%; margin: 0 auto;"></div>
+      <div id="playerContainer"
+        style="border: 1px solid black; display: flex; flex-wrap: wrap; text-align: center; width: 80%; margin: 0 auto;">
+      </div>
     </div>
     <div class="row">
       <div class="col-lg-8 mx-auto text-center">
         <div class="large text-muted">
           {{ site.data.sitetext.about.body | markdownify }}
-          
+
         </div>
       </div>
     </div>
