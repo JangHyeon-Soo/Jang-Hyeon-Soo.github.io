@@ -2,7 +2,7 @@ const plData =  //playerInformationArray // 선수의 사진 및 정보
     [
         {
             playerImage: '웹화면구현_2171040_장현수/P_Image/VictorLindelof.webp',
-            playerName: "빅토르 린델뢰프",
+            playerName: "빅토르<br>린델뢰프",
             playerBackNumber: 2,
             playerAge: 29,
             playerAppearance: 248,
@@ -11,7 +11,7 @@ const plData =  //playerInformationArray // 선수의 사진 및 정보
         },
         {
             playerImage: '웹화면구현_2171040_장현수/P_Image/HarryMaguire.webp',
-            playerName: "해리 매과이어",
+            playerName: "해리<br>매과이어",
             playerBackNumber: 5,
             playerAge: 30,
             playerAppearance: 188,
@@ -20,7 +20,7 @@ const plData =  //playerInformationArray // 선수의 사진 및 정보
         },
         {
             playerImage: '웹화면구현_2171040_장현수/P_Image/DiogoDalot.webp',
-            playerName: "디오고 달롯",
+            playerName: "디오고<br>달롯",
             playerBackNumber: 20,
             playerAge: 24,
             playerAppearance: 126,
@@ -30,7 +30,7 @@ const plData =  //playerInformationArray // 선수의 사진 및 정보
         },
         {
             playerImage: '웹화면구현_2171040_장현수/P_Image/HannibalMejbri.webp',
-            playerName: "한니발 메브리",
+            playerName: "한니발<br>메브리",
             playerBackNumber: 46,
             playerAge: 20
             ,
@@ -38,7 +38,7 @@ const plData =  //playerInformationArray // 선수의 사진 및 정보
         },
         {
             playerImage: '웹화면구현_2171040_장현수/P_Image/AaronWanBissaka.webp',
-            playerName: "아론 완-비사카",
+            playerName: "아론<br>완-비사카",
             playerBackNumber: 29,
             playerAge: 26
             ,
@@ -46,35 +46,35 @@ const plData =  //playerInformationArray // 선수의 사진 및 정보
         },
         {
             playerImage: '웹화면구현_2171040_장현수/P_Image/AlejandroGarnacho.webp',
-            playerName: "알레한드로 가르나초",
+            playerName: "알레한드로<br>가르나초",
             playerBackNumber: 17,
             playerAge: 19,
             index: 5
         },
         {
             playerImage: '웹화면구현_2171040_장현수/P_Image/AltayBayindir.webp',
-            playerName: "알타이 바인드르",
+            playerName: "알타이<br>바인드르",
             playerBackNumber: 1,
             playerAge: 25,
             index: 6
         },
         {
             playerImage: '웹화면구현_2171040_장현수/P_Image/AmadDiallo.webp',
-            playerName: "아마드 디알로",
+            playerName: "아마드<br>디알로",
             playerBackNumber: 16,
             playerAge: 21,
             index: 7
         },
         {
             playerImage: '웹화면구현_2171040_장현수/P_Image/AndreOnana.webp',
-            playerName: "안드레 오나나",
+            playerName: "안드레<br>오나나",
             playerBackNumber: 24,
             playerAge: 27,
             index: 8
         },
         {
             playerImage: '웹화면구현_2171040_장현수/P_Image/AnthonyMartial.webp',
-            playerName: "앙토니 마시알",
+            playerName: "앙토니<br>마시알",
             playerBackNumber: 9,
             playerAge: 27,
             index: 9
@@ -88,7 +88,7 @@ const plData =  //playerInformationArray // 선수의 사진 및 정보
         },
         {
             playerImage: '웹화면구현_2171040_장현수/P_Image/BrunoFernandes.webp',
-            playerName: "브루노 페르난데스",
+            playerName: "브루노<br>페르난데스",
             playerBackNumber: 8,
             playerAge: 29,
             index: 11
@@ -102,126 +102,126 @@ const plData =  //playerInformationArray // 선수의 사진 및 정보
         },
         {
             playerImage: '웹화면구현_2171040_장현수/P_Image/ChristianEriksen.webp',
-            playerName: "크리스티안 에릭센",
+            playerName: "크리스티안<br>에릭센",
             playerBackNumber: 14,
             playerAge: 31,
             index: 13
         },
         {
             playerImage: '웹화면구현_2171040_장현수/P_Image/DonnyVanDeBeek.webp',
-            playerName: "도니 반 더 베이크",
+            playerName: "도니<br>반 더 베이크",
             playerBackNumber: 34,
             playerAge: 26,
             index: 14
         },
         {
             playerImage: '웹화면구현_2171040_장현수/P_Image/FacundoPellistri.webp',
-            playerName: "파쿤도 펠리스트리",
+            playerName: "파쿤도<br>펠리스트리",
             playerBackNumber: 28,
             playerAge: 21,
             index: 15
         },
         {
             playerImage: '웹화면구현_2171040_장현수/P_Image/JadonSancho.webp',
-            playerName: "제이든 산초",
+            playerName: "제이든<br>산초",
             playerBackNumber: 25,
             playerAge: 23,
             index: 16
         },
         {
             playerImage: '웹화면구현_2171040_장현수/P_Image/JonnyEvans.webp',
-            playerName: "조니 에반스",
+            playerName: "조니<br>에반스",
             playerBackNumber: 35,
             playerAge: 35,
             index: 17
         },
         {
             playerImage: '웹화면구현_2171040_장현수/P_Image/KobbieMainoo.webp',
-            playerName: "코비 마이누",
+            playerName: "코비<br>마이누",
             playerBackNumber: 37,
             playerAge: 18,
             index: 18
         },
         {
             playerImage: '웹화면구현_2171040_장현수/P_Image/LisandroMartinez.webp',
-            playerName: "리산드로 마르티네즈",
+            playerName: "리산드로<br>마르티네즈",
             playerBackNumber: 6,
             playerAge: 25,
             index: 19
         },
         {
             playerImage: '웹화면구현_2171040_장현수/P_Image/LukeShaw.webp',
-            playerName: "루크 쇼",
+            playerName: "루크<br>쇼",
             playerBackNumber: 23,
             playerAge: 28,
             index: 20
         },
         {
             playerImage: '웹화면구현_2171040_장현수/P_Image/MarcusRashford.webp',
-            playerName: "마커스 래쉬포드",
+            playerName: "마커스<br>래쉬포드",
             playerBackNumber: 11,
             playerAge: 26,
             index: 21
         },
         {
             playerImage: '웹화면구현_2171040_장현수/P_Image/MasonMount.webp',
-            playerName: "메이슨 마운트",
+            playerName: "메이슨<br>마운트",
             playerBackNumber: 7,
             playerAge: 24,
             index: 22
         },
         {
             playerImage: '웹화면구현_2171040_장현수/P_Image/RafaelVarane.webp',
-            playerName: "라파엘 바란",
+            playerName: "라파엘<br>바란",
             playerBackNumber: 19,
             playerAge: 30,
             index: 23
         },
         {
             playerImage: '웹화면구현_2171040_장현수/P_Image/RasmusHojlund.webp',
-            playerName: "라스무스 호일룬",
+            playerName: "라스무스<br>호일룬",
             playerBackNumber: 11,
             playerAge: 20,
             index: 24
         },
         {
             playerImage: '웹화면구현_2171040_장현수/P_Image/ScottMcTominay.webp',
-            playerName: "스콧 맥토미니",
+            playerName: "스콧<br>맥토미니",
             playerBackNumber: 39,
             playerAge: 26,
             index: 25
         },
         {
             playerImage: '웹화면구현_2171040_장현수/P_Image/SergioReguilon.webp',
-            playerName: "세르히오 레길론",
+            playerName: "세르히오<br>레길론",
             playerBackNumber: 15,
             playerAge: 26,
             index: 26
         },
         {
             playerImage: '웹화면구현_2171040_장현수/P_Image/SholaShoretire.webp',
-            playerName: "솔라 쇼레티러",
+            playerName: "솔라<br>쇼레티러",
             playerBackNumber: 47,
             playerAge: 19,
             index: 27
         },
         {
             playerImage: '웹화면구현_2171040_장현수/P_Image/SofianAmrabat.webp',
-            playerName: "소피앙 암라바트",
+            playerName: "소피앙<br>암라바트",
             playerBackNumber: 4,
             playerAge: 27,
             index: 28
         },
         {
             playerImage: '웹화면구현_2171040_장현수/P_Image/TomHeaton.webp',
-            playerName: "톰 히튼",
+            playerName: "톰<br>히튼",
             playerBackNumber: 22,
             playerAge: 37,
             index: 29
         },
         {
             playerImage: '웹화면구현_2171040_장현수/P_Image/TyrellMalacia.webp',
-            playerName: "타이렐 말라시아",
+            playerName: "타이렐<br>말라시아",
             playerBackNumber: 12,
             playerAge: 24,
             index: 30

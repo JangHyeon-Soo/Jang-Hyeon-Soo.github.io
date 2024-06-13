@@ -25,6 +25,7 @@ window.addEventListener('load', function () {
         playerName.style.fontSize = "10px";
         playerName.id = "playerName";
         playerName.style.width = "60px";
+        playerName.style.marginTop = "10px";
         
 
         const player = plData[i];
@@ -67,11 +68,18 @@ window.addEventListener('load', function () {
                 playerDetailBox.style.top = "50%";
                 playerDetailBox.style.transform = "translate(-50%, -50%)";
                 playerDetailBox.zIndex = 10;
+                playerDetailBox.style.border = "1px solid black";
+                
 
                 const plImage = document.createElement('img');
                 plImage.src = playerImg.src;
-                plImage.style.height = "60%";
+                plImage.style.position = "relative";
+                plImage.style.height = "auto";
+                plImage.style.width = "50%";
+                
+ 
 
+                
                 playerDetailBox.appendChild(plImage);
 
                 const playerInfo = document.createElement('div');
@@ -87,6 +95,7 @@ window.addEventListener('load', function () {
                 neonName.className = "neonName";
                 neonName.innerHTML = playerCard.dataset.playerName;
                 playerInfo.appendChild(neonName);
+                
 
 
                 playerDetailBox.appendChild(playerInfo);
